@@ -22,13 +22,11 @@ docker container inspect 6e17b463402a = permet d'inpecter les parametres réseau
 
 docker pull (name_img)= permet de telecharger une image
 
-docker exec -it (ID_img) /bin/bash premet de lancer une distribution
+docker run -it (ID_img) /bin/bash premet de lancer une distribution
 
 ##commande docker en test :
 
 docker container run --publish 80:80 --detach --name webhost nginx= cette commande permet de créer un container nommer webhost qui ecoute sur le port 80 grace à l'option publish avec l'image nginx 
-
-docker run -it ubuntu
 
 docker container run --publish 80:80 --detach --name isitech ubuntu /bin/bash
 
