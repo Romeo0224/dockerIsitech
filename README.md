@@ -7,7 +7,7 @@ docker -a = permet de voir les option de docker
 docker ps = permet de regarder les container qui son up 
 docker ps -a = permet de regarder tout les container qui sont up et down
 
-docker run = permet les lancement de container
+docker run -d = permet les lancement de container en daemon(arriere plan)
 
 docker container rm(ID_container)= permet de supprimer un container
 
