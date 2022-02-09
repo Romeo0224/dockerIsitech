@@ -1,2 +1,23 @@
-version: "1.2"
+version: "2"
 services: 
+  frontend:
+    image: ubuntu:latest
+    volumes:
+      - testnico:/home/nico/app
+volumes:
+  testnico:
+services:
+  db:
+    image: mariadb:10.6.4-focal
+  wordpress:
+    image: wordpress:latest
+    ports:
+      - 80:80
+    restart: always
+
+
+
+
+# docker-compose up -d= lance le fichier docker-compose.yml
+
+#Ce fichier docker crée deux container ubuntu avec une maria.db et un word press 
