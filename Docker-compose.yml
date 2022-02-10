@@ -20,4 +20,4 @@ services:
 
 # docker-compose up -d= lance le fichier docker-compose.yml
 
-#Ce fichier docker crée deux container ubuntu avec une maria.db et un word press 
+#Ce fichier docker crée un container ubuntu avec une maria.db et un word press 
