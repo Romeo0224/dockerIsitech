@@ -20,7 +20,7 @@ RUN apt-get update && \
 
     apt-get clean;
 
-ENTRYPOINT ["somescript.sh"]*
+#ENTRYPOINT ["somescript.sh"]*
 
 ARG RAM_AMOUNT 
 
